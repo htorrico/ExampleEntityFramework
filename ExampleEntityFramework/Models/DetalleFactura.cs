@@ -8,6 +8,8 @@ namespace ExampleEntityFramework.Models
     public class DetalleFactura
     {
         public int DetalleFacturaID { get; set; }
+        public int Cantidad { get; set; }
+        public int SubTotal { get; set; }
 
         //Llaves foraneas
         public int FacturaID { get; set; }
